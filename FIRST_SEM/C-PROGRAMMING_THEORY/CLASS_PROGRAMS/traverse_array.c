@@ -11,7 +11,7 @@ int main(){
     printf("valid size");
     }
     for(int i=0;i<5;i++){
-        printf("\nenter %d array size:[int size]",i+1);
+        printf("\nenter %d array size:",i+1);
         scanf("%d",&size[i]); }
     printf("\narray size:%d\n",size[0]);
     printf("array size:%d\n",size[1]);
